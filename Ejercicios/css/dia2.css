@@ -1,0 +1,97 @@
+	/*
+		estructura de una regla css:
+		
+		selector {
+			
+		}
+		
+	*/
+	
+	h1 {
+		font-family: Arial;
+		font-size: 30px;
+		color: #b5b06b;
+	}
+	
+	a {
+		color: #f00;
+		font-style: italic;
+		font-weight: bold;
+		font-variant: small-caps;
+		letter-spacing: -1px;
+		text-decoration: none;
+	}
+	
+	p {
+		text-align: right;
+		font-size: 14px;
+		line-height: 1.5em;
+		margin-top: 4em;
+		margin-bottom: 4em;
+		width: 200px;
+		height: 300px
+	}
+
+.titulo-fondo-anarajado {
+	background-color: #f2bd2f;
+	color: white;
+}
+
+#titulo1 {
+	color: green;
+}
+
+.titulo-grande{
+	font-size: 3em;		
+}
+
+body {
+}
+
+.titulo {
+	color: green;
+}
+
+.fondo-naranja {
+	background-color: #dddd2e;
+}
+
+h2.titulo {
+	font-size: 3em;
+}
+
+.titulo.fondo-naranja {
+	color: #006cff;
+}
+
+.cuadrito {
+	width: 300px;
+	background-color: #fcd3af;
+}
+
+.cuadrito h4 {
+	
+}
+
+.cuadrito p {
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
