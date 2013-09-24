@@ -1,0 +1,113 @@
+
+.boton {
+	position: relative;
+	display: inline-block;
+	background-color: #6873c4;
+	border-bottom: 4px solid #000;
+	margin: 20px;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+.boton:hover {
+	background-color: #efe720;
+	color: #333;
+}
+.boton:active {
+	border-bottom: 2px solid #000;
+}
+
+.boton.verde {
+	background-color: #7fcc62;
+	color: white;
+}
+
+.boton.verde:hover {
+	background-color: #57a23b;
+	color: white;
+}
+
+.boton.naranja {
+	background-color: #ffad2a;
+	color: white;
+}
+
+.boton.naranja:hover {
+	background-color: #e69005;
+	color: white;
+}
+
+.boton.boton-grande {
+	font-size: 20px;
+	padding: 15px 35px;
+}
+
+.boton.boton-pequeno {
+	font-size: 10px;
+	padding: 10px 20px;
+}
+
+.boton .tooltip {
+	width: 100%;
+	position: absolute;
+	display: none;
+	background-color: black;
+	color: white;
+	padding: 8px 15px;
+	top: -130%;
+	left: 0;
+}
+
+.boton:hover .tooltip {
+	display: block;
+}
+
+.boton .tooltip .triangulo {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	display: block;
+	height: 0;
+	width: 0;
+	border-top: 10px solid #000;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boton .tooltip:after {
+	position: absolute;
+	bottom: -10px;
+	left: 25%;
+	content: "";
+	display: block;
+	width: 0px; height: 0px;
+	border-top: 10px solid #000;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+
+
