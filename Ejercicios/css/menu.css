@@ -1,0 +1,128 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+	font-size: 1em;
+}
+
+.menu {
+	margin: 0; 
+	padding: 0;
+	list-style-type: none;
+	height: 50px;
+	background-color: #7187c3;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+.menu a {
+	display: inline-block;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;	
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 0.9em;
+	border-left: 1px solid #71b0c3;
+	border-right: 1px solid #7174c3;
+	/* 
+	La propiedad de alineacion vertical solo aplica para celdas de una tabla (td, th).
+	Si se quiere simular dicho comportamiento se puede usar el: 
+	
+	display: table-cell;
+	vertical-align: middle; 
+	*/
+}
+
+.menu li:first-child a {
+	border-left: none;
+	border-top: none;
+}
+.menu li:last-child a {
+	border-right: none;
+	border-bottom: none;
+}
+
+.menu a:hover {
+	background-color: #71c377;
+}
+
+.menu.menu-v {
+	height: auto;
+}
+
+.menu.menu-v li {
+	float: none;
+}
+
+.menu.menu-v a {
+	display: block;
+	border-top: 1px solid #71b0c3;
+	border-bottom: 1px solid #7174c3;
+	border-left: none;
+	border-right: none;
+}
+
+.menu .submenu {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 200px;
+	z-index: 1000;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #c371a7;
+}
+
+.menu .submenu li {
+	float: none;
+}
+
+.menu .submenu a {
+	display: block;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.menu li:hover > .submenu {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
