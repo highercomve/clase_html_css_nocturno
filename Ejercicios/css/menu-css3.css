@@ -1,20 +1,80 @@
 /*
-font-family: 'Dosis', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+font-family:   'Dosis', sans-serif;
+	
+
+font-family:   'Ubuntu', sans-serif;
+	
+
+font-family:   'Open Sans', sans-serif;
+	
+
+font-family:   'Roboto', sans-serif;
+	
+
+ */
+.btn.btn-css3 {
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -o-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	-image -image filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=0 );
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #7187c3;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 0.5em; /*
+
+-webkit-box-shadow:   X Y BLUR SPREAD COLOR;
+	
+box-shadow:   X Y BLUR SPREAD COLOR;
+	
+
+	
+	 */
+border: 1px solid #2f52b2; /*
+	text-shadow:   X Y BLUR COLOR;
+	
+	 */
+text-shadow: 0 -1px 0 #03247e;
+
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	transition: all 600ms ease;
+	background-repeat: no-repeat;
+}
+
+.btn.btn-css3:hover {
+	background-color: #2f52b2;
+
+	-webkit-box-shadow: 0 0px 2px 0 #2f52b2 , inset 0 2px 0 0 #3e69db;
+	box-shadow: 0 0px 2px 0 #2f52b2 , inset 0 2px 0 0 #3e69db;
+	text-shadow: 0 -1px 0 #000a24;
+	background-position: 0px -42px;
+	transform: scale(2);
+}
 
 body {
 	font-size: 1em;
 }
 
 .menu {
-	margin: 0; 
+	border-radius: 15px;
+	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	height: 50px;
 	background-color: #7187c3;
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -o-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+	box-shadow: 0 1px 0 0 #2f52b2;
 }
 
 .menu li {
@@ -23,37 +83,65 @@ body {
 }
 
 .menu a {
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	transition: all 600ms ease;
 	display: inline-block;
 	text-decoration: none;
 	height: 50px;
 	line-height: 50px;
-	padding: 0 20px;	
+	padding: 0 20px;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 0.9em;
 	border-left: 1px solid #71b0c3;
 	border-right: 1px solid #7174c3;
-	/* 
+	text-shadow: 0 -2px 0 #2f52b2; /*
 	La propiedad de alineacion vertical solo aplica para celdas de una tabla (td, th).
 	Si se quiere simular dicho comportamiento se puede usar el: 
 	
-	display: table-cell;
-	vertical-align: middle; 
-	*/
+	display:    table-cell;
+	
+	
+	
+	vertical-align:    middle;
+	
+	
+	
+	 */
 }
+
 
 .menu li:first-child a {
 	border-left: none;
 	border-top: none;
+	border-radius: 15px 0 0 15px;
 }
+
+.menu.menu-v li:first-child a {
+	border-radius: 15px 15px 0 0;
+}
+
 .menu li:last-child a {
 	border-right: none;
 	border-bottom: none;
+	border-radius: 0 15px 15px 0;
+}
+
+.menu.menu-v li:last-child a {
+	border-radius:  0 0 15px 15px;
+}
+
+.menu .submenu li:first-child a,
+.menu .submenu li:last-child a{
+	border-radius: 0;
 }
 
 .menu a:hover {
-	background-color: #71c377;
+	background-color: #4b6cc7;
 }
 
 .menu.menu-v {
@@ -73,7 +161,9 @@ body {
 }
 
 .menu .submenu {
-	display: none;
+	transition: all 400ms ease;
+	opacity: 0;
+	visibility: hidden;
 	position: absolute;
 	top: 50px;
 	left: 0;
@@ -98,18 +188,9 @@ body {
 }
 
 .menu li:hover > .submenu {
-	display: block;
+	opacity: 1;
+	visibility: visible;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
