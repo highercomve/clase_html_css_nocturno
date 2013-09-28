@@ -1,0 +1,11 @@
+/*dia_bootstrap.css*/
+.mt20{
+	margin-top: 20px;
+}
+.fondo-gris{
+	background-color: #ebebeb;
+}
+#contacto .btn{
+	width: 87%;
+	margin-bottom: 20px;
+}
