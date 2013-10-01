@@ -102,6 +102,24 @@ body {
 	display: block;
 }
 
+.menu.menu-links {
+	height: auto;
+	background: none;
+}
+.menu.menu-links li {
+	display: inline;
+	float: none;
+}
+.menu.menu-links a {
+	line-height: 1em;
+	display: inline;
+	height: auto;
+	padding: 0 20px;
+	font-weight: 300;
+	color: #042a55;
+	background: none;
+	border: none;
+}
 
 
 
