@@ -1,11 +1,33 @@
 /*dia_bootstrap.css*/
-.mt20{
+
+img {
+	max-width: 100%;
+}
+
+.sidebar {
+	margin-bottom: 40px;
+}
+
+.producto {
+	min-height: 400px;
+	margin-bottom: 20px;
+}
+
+.producto h5 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.footer {
+	padding: 40px 0;
+}
+
+.footer p {
 	margin-top: 20px;
 }
-.fondo-gris{
-	background-color: #ebebeb;
-}
-#contacto .btn{
-	width: 87%;
-	margin-bottom: 20px;
+
+@media (min-width: 1200px) {
+	.producto {
+		min-height: 500px;
+	}
 }

@@ -3,14 +3,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Bootstrap</title>
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/dia-bootstrap.css">
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
 				<nav class="navbar navbar-default col-md-12">
 					<a href="#" class="navbar-brand">Hola Mundo</a>
-					<ul class="nav navbar-nav navbar-right">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".mimenu">
+						<span class="glyphicon glyphicon-thumbs-down"></span>
+					</button>
+					<ul class="collapse nav navbar-collapse navbar-nav navbar-right mimenu">
 						<li>
 							<a href="#">Hola</a>
 						</li>
@@ -24,34 +30,78 @@
 				</nav>
 			</div>
 		</div>
+		
+		<div class="container visible-xs">
+			<img src="http://placehold.it/940x200" alt="">
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 sidebar">
+					<img src="http://placehold.it/600x450" alt="">
 					<h2>Hola mundo</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, enim, ab rerum earum magni dolores suscipit sequi incidunt unde sit at deleniti aliquam iusto possimus blanditiis corporis voluptates mollitia sapiente!</p>
+					<a href="" class="btn btn-primary btn-block">Lorem ipsum dolor sit amet.</a>
 				</div>
 				
-				<div class="col-md-8">	
-					<div class="row">	
-						<div class="col-md-4">
-							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, sed, commodi sequi asperiores vero voluptatem necessitatibus ex ratione quia minus! Voluptas, veritatis, totam blanditiis architecto doloribus excepturi aliquid quis laboriosam.</p>
+				<div class="col-md-8 col-sm-8">	
+					<div class="row">
+						<!--.col-md-4.producto>img[src=http://placehold.it/600x450]+(h5>lorem6)+(p>lorem)-->
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Lorem ipsum dolor sit amet, consectetur.</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, doloremque, consectetur, beatae, officia numquam sed inventore voluptates sit rem laudantium nostrum quas necessitatibus neque nobis officiis autem vitae. Optio, voluptates.</p>
 						</div>
-						<div class="col-md-4">
-							<p>Accusantium, ullam, quod autem tempore facilis porro earum dolorem distinctio iure saepe nemo voluptatibus vel illo illum ducimus aliquid a excepturi nobis amet dolorum eius rem magni est quo accusamus.</p>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Quod necessitatibus qui ab accusantium recusandae.</h5>
+							<p>Delectus, nemo, adipisci, ea, aliquid dolorem earum iure velit praesentium quod dicta maxime dignissimos laborum corrupti beatae culpa facere vitae similique id tenetur molestias eos repellendus consequatur repellat exercitationem quia.</p>
 						</div>
-						<div class="col-md-4">
-							<p>Neque, corporis exercitationem consequatur tempora explicabo enim corrupti. Asperiores, non, nemo, odit, sed maxime recusandae iusto saepe odio expedita quae placeat perspiciatis nam dolore aperiam unde provident tempore quo excepturi.</p>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Quis quaerat quos hic reiciendis praesentium.</h5>
+							<p>Minus, doloribus quam blanditiis sed optio magni adipisci unde voluptatum alias sint temporibus culpa illo eligendi a deserunt aliquid deleniti quas laudantium porro maiores esse minima accusamus expedita dolore eos.</p>
 						</div>
-						<div class="col-md-4">
-							<p>Odit, modi corporis dolores obcaecati adipisci iusto fugiat eveniet nam esse eaque dicta optio explicabo. Nisi, amet, voluptas aspernatur nobis ratione fuga ipsam magni est recusandae a magnam vero omnis.</p>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Quo, minima tempora dolore alias cum.</h5>
+							<p>Eaque, ipsum, incidunt expedita magni accusantium ullam consequuntur ipsam fugiat neque accusamus reiciendis culpa praesentium deleniti. Quam, eum rerum qui fuga dicta nisi nam omnis non eligendi asperiores dignissimos sed.</p>
 						</div>
-						<div class="col-md-4">
-							<p>Quidem, ad, officia, aspernatur, veniam nulla cupiditate quibusdam sint unde ut quaerat vel est voluptatum tenetur assumenda ea temporibus quia neque sunt eius repellat error nemo quasi! Facere, excepturi, voluptatibus!</p>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Blanditiis quasi voluptatum vitae omnis pariatur!</h5>
+							<p>Sunt, inventore, debitis, ipsa id mollitia molestiae ut obcaecati provident eligendi corporis deserunt animi quod blanditiis officiis quaerat quis officia? Recusandae, similique nobis doloremque nostrum voluptatum vel molestiae autem deserunt?</p>
 						</div>
-						<div class="col-md-4">
-							<p>Laboriosam, neque, vero eius fugiat ipsam eaque ut id ratione non voluptatibus reprehenderit sed consequatur molestiae nemo maiores quis eligendi aut hic tenetur animi distinctio totam libero voluptate ea dolore.</p>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Nulla, odit modi autem libero dolore!</h5>
+							<p>Repellendus, recusandae, mollitia, beatae quia suscipit consequuntur tenetur rem neque ut quae ullam soluta sunt ducimus a maxime veritatis facilis unde omnis quod tempore. Fugiat, voluptas laudantium odit consequuntur corrupti.</p>
+						</div>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>A, dolores debitis ullam distinctio. Laudantium!</h5>
+							<p>Reiciendis, commodi, deserunt ea ab laboriosam et itaque dolor iusto maiores nihil? Molestiae, suscipit nesciunt quisquam mollitia ipsam illo id laboriosam quas reprehenderit culpa saepe alias et harum sed distinctio.</p>
+						</div>
+						<div class="col-md-4 col-xs-6 col-sm-12 col-lg-3 producto">
+							<img src="http://placehold.it/600x450" alt="">
+							<h5>Soluta sit officiis mollitia unde at.</h5>
+							<p>Facere, assumenda, esse ea pariatur provident dolores sunt cumque ex id nam impedit quod nisi fuga maxime tempore sint quibusdam culpa rem quas reprehenderit molestiae natus debitis ipsa? Rerum, consectetur?</p>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container footer">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Escuelaweb</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="nav nav-pills">
+						<li><a href="#">Lorem ipsum.</a></li>
+						<li><a href="#">Dolore, voluptatibus.</a></li>
+						<li><a href="#">Provident, aspernatur.</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
