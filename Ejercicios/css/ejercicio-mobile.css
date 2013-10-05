@@ -1,0 +1,62 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.noticias {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.recent-new {
+	border-bottom: 1px solid #aaa5a5;
+}
+.recent-new h4 {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	text-transform: capitalize; 
+	font-weight: 400;
+}
+.recent-new p {
+	font-size: 0.8em;
+}
+
+.carousel .item .carousel-caption {
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	transition: all 600ms ease;
+	opacity: 0;
+}
+
+.carousel:hover .item .carousel-caption {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
