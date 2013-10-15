@@ -1,0 +1,114 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+img {
+	max-width: 100%;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
+.pt80 {
+	padding-top: 80px;
+} 
+.pb40 {
+	padding-bottom: 40px;
+}
+
+.fondo-azul {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #4c4cad;
+	color: white;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 100;
+}
+
+.leader {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.leader h2 {
+	font-size: 3em;
+}
+
+.features {
+	text-align: center;
+}
+
+.features .icono {
+	font-size: 80px;
+}
+
+.slideshow {
+	position: relative;
+}
+
+.slideshow .pager span{
+	display: inline-block;
+	text-indent: -999em;
+	height: 20px;
+	width: 20px;
+	background-color: #000;
+	margin: 0 5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slideshow .pager span.cycle-pager-active {
+	background-color: #4c4cad;
+}
+
+.slideshow .palante,
+.slideshow .patras {
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	font-size: 30px;
+	color: white;
+	margin-top: -35px;
+	cursor: pointer;
+}
+.slideshow .patras {
+	left: 10px;
+}
+.slideshow .palante {
+	right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

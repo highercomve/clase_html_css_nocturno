@@ -37,8 +37,8 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4 hidden-xs recent-news">
-					<div class="tabable">
+				<div id="sidebar" class="col-md-4 col-sm-4 hidden-xs">
+					<div class="tabable recent-news">
 						<ul class="nav nav-tabs">
 							<li class="active">
 								<a href="#news" data-toggle="tab">Noticias</a>
@@ -136,6 +136,55 @@
 							</div>
 						</div>
 					</div>
+					<div class="collapsable">
+						<div id="miacordion" class="panel-group">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a href="#panel1" data-toggle="collapse" data-parent="#miacordion" >
+											Hola mundo mi primer accordion
+										</a>
+									</h4>
+								</div>
+								<div id="panel1" class="panel-collapse collapse">
+									<div class="panel-body">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, placeat, quibusdam, blanditiis commodi saepe perferendis atque quod voluptates accusantium quasi tempore quis possimus necessitatibus iste praesentium. Minima aut laudantium in.</p>
+									<p>Blanditiis, ad, commodi ipsum in beatae error tempore omnis enim doloremque animi sed cupiditate delectus architecto saepe explicabo fuga voluptatum unde labore veniam numquam quibusdam officiis consequuntur nostrum hic vitae?</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a href="#panel2" data-toggle="collapse" data-parent="#miacordion" >
+											Hola mundo mi primer accordion
+										</a>
+									</h4>
+								</div>
+								<div id="panel2" class="panel-collapse collapse">
+									<div class="panel-body">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, placeat, quibusdam, blanditiis commodi saepe perferendis atque quod voluptates accusantium quasi tempore quis possimus necessitatibus iste praesentium. Minima aut laudantium in.</p>
+									<p>Blanditiis, ad, commodi ipsum in beatae error tempore omnis enim doloremque animi sed cupiditate delectus architecto saepe explicabo fuga voluptatum unde labore veniam numquam quibusdam officiis consequuntur nostrum hic vitae?</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a href="#panel3" data-toggle="collapse" data-parent="#miacordion" >
+											Hola mundo mi primer accordion
+										</a>
+									</h4>
+								</div>
+								<div id="panel3" class="panel-collapse collapse">
+									<div class="panel-body">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, placeat, quibusdam, blanditiis commodi saepe perferendis atque quod voluptates accusantium quasi tempore quis possimus necessitatibus iste praesentium. Minima aut laudantium in.</p>
+									<p>Blanditiis, ad, commodi ipsum in beatae error tempore omnis enim doloremque animi sed cupiditate delectus architecto saepe explicabo fuga voluptatum unde labore veniam numquam quibusdam officiis consequuntur nostrum hic vitae?</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-8 col-md-8">
 					<div class="row">
@@ -184,41 +233,67 @@
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Lorem ipsum dolor sit.</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, hic dignissimos consequatur minima aliquam saepe dolor odit nihil quae voluptatibus dolorem amet vel maxime unde ducimus dolorum accusantium placeat laboriosam.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Nulla odit exercitationem libero!</h3>
 							<p>Omnis beatae quam dignissimos dicta sed voluptatem ut rerum eius repellendus! Accusantium, explicabo, dolorum, ratione recusandae possimus voluptas et minus corporis ex dolorem ipsam odio quae sunt facilis ipsum sint.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">
+							    	$100 | Comprar
+							    </a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Amet, temporibus soluta natus.</h3>
 							<p>Magni, debitis, incidunt, animi ut deleniti vitae tempore ipsam reprehenderit dolor voluptates laborum explicabo quia repellendus commodi rem voluptatum architecto consectetur omnis sapiente delectus iusto mollitia necessitatibus fugit blanditiis et.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Consequuntur nihil dignissimos molestias.</h3>
 							<p>Laborum, accusamus, asperiores, laboriosam ab qui eaque earum reiciendis magnam incidunt impedit dolore dolores dignissimos nesciunt repellat enim aut iure vero porro quibusdam ducimus omnis id recusandae consequatur dolorum debitis.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Id, ipsam repudiandae soluta.</h3>
 							<p>Iure, inventore, quis corporis vero sed nobis neque eaque pariatur hic mollitia illum cupiditate rerum optio distinctio obcaecati maxime eligendi cum aliquam at maiores. Expedita, quos earum laudantium quod! Eum.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Sequi, et tempore necessitatibus.</h3>
 							<p>Modi, molestias velit consequuntur quibusdam magni eligendi blanditiis voluptatum eum. Aliquid, iure, voluptatibus, ea placeat in rem dicta harum perferendis alias dolorum maiores consectetur mollitia asperiores inventore neque dignissimos velit!</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Blanditiis at nulla amet.</h3>
 							<p>Aperiam, eos, ipsum, atque, ex deserunt beatae iusto reprehenderit eligendi veritatis minus quo pariatur debitis optio enim quod quae dignissimos dolorem numquam incidunt neque blanditiis suscipit voluptas quia alias cumque!</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 						<div class="noticias col-xs-12 col-md-6 col-sm-12">
 							<img src="http://placehold.it/600x400" alt="">
 							<h3>Non, iste deserunt. Dolore.</h3>
 							<p>Tempora, totam, aliquam, magnam suscipit numquam voluptate aliquid eum quae id ex ad saepe illo aut ut dolor quam optio! Dolores, suscipit illum neque sapiente culpa in ipsam fugiat sunt.</p>
+							<p class="text-right">
+							    <a data-trigger="hover" data-toggle="popover" data-content="Su cupo cadivi no le alcanza para pagar estos 100 PiedroLares" data-placement="bottom" title="Lo sentimos!" href="#" class="btn btn-success">$100 | Comprar</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -268,6 +343,7 @@
 		</div>
 		<script src="js/jquery-2.0.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/ejercicio-mobile.js"></script>
 	</body>
 
 </html>
