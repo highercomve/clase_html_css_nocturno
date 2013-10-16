@@ -1,0 +1,109 @@
+@keyframes "volando" {
+ 0% {
+    left: 0%;
+   	margin-left: 0;
+ }
+ 50% {
+    left: 100%;
+   	margin-left: -90px;
+   	background-position: 0 0;
+ }
+
+50.1% {
+	background-position: -90px 0;
+}
+ 100% {
+    left: 0%;
+   	margin-left: 0;
+   	background-position: -90px 0;
+ }
+
+}
+
+@-moz-keyframes volando {
+ 0% {
+   left: 0%;
+   margin-left: 0;
+ }
+ 50% {
+   left: 100%;
+   margin-left: -90px;
+   background-position: 0 0;
+ }
+
+50.1% {
+	background-position: -90px 0;
+}
+ 100% {
+   left: 0%;
+   margin-left: 0;
+   background-position: -90px 0;
+ }
+
+}
+
+@-webkit-keyframes "volando" {
+ 0% {
+   left: 0%;
+   margin-left: 0;
+ }
+ 50% {
+   left: 100%;
+   margin-left: -90px;
+   background-position: 0 0;
+ }
+
+50.1% {
+	background-position: -90px 0;
+}
+ 100% {
+   left: 0%;
+   margin-left: 0;
+   background-position: -90px 0;
+ }
+
+}
+
+@-ms-keyframes "volando" {
+ 0% {
+   left: 0%;
+   margin-left: 0;
+ }
+ 50% {
+   left: 100%;
+   margin-left: -90px;
+   background-position: 0 0;
+ }
+
+50.1% {
+	background-position: -90px 0;
+}
+ 100% {
+   left: 0%;
+   margin-left: 0;
+   background-position: -90px 0;
+ }
+
+}
+
+@-o-keyframes "volando" {
+ 0% {
+   left: 0%;
+   margin-left: 0;
+ }
+ 50% {
+   left: 100%;
+   margin-left: -90px;
+   background-position: 0 0;
+ }
+
+50.1% {
+	background-position: -90px 0;
+}
+ 100% {
+   left: 0%;
+   margin-left: 0;
+   background-position: -90px 0;
+ }
+
+}

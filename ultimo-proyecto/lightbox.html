@@ -6,6 +6,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400|Ubuntu:300,400|Roboto:400,100,300|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+		<link rel="stylesheet" href="plugins/fancybox/helpers/jquery.fancybox-buttons.css">
+		<link rel="stylesheet" href="plugins/fancybox/helpers/jquery.fancybox-thumbs.css">
 		<link rel="stylesheet" href="css/proyecto.css">
 	</head>
 	<body>
@@ -45,26 +48,27 @@
 		<section id="content" class="container">
 			
 				<div class="row mt40">
-					<div class="col-md-4 features">
-						<div class="icono">
-							<div class="glyphicon glyphicon-camera"></div>
+					<div class="galeria">
+						<div class="col-md-3">
+							<a class="fancybox" rel="group" href="img/galeria/1b.png">
+								<img src="img/galeria/1s.png" alt="">
+							</a>
 						</div>
-						<h3>Lorem ipsum dolor sit amet, consectetur.</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis autem aliquid assumenda accusamus provident quia quis est cum quae. Fugit, qui eligendi reprehenderit animi veniam voluptatibus perspiciatis porro et! Fugiat.</p>
-					</div>
-					<div class="col-md-4 features">
-						<div class="icono">
-							<div class="glyphicon glyphicon-camera"></div>
+						<div class="col-md-3">
+							<a class="fancybox" rel="group" href="img/galeria/2b.jpg">
+								<img src="img/galeria/2s.jpg" alt="">
+							</a>
 						</div>
-						<h3>Cumque nemo ratione sapiente ab quod.</h3>
-						<p>Pariatur, eaque, quos, qui enim nesciunt eligendi saepe rem ea consequuntur sequi quis obcaecati asperiores quasi esse dolorem minus animi tenetur deserunt consectetur beatae sapiente sed voluptates sit necessitatibus incidunt!</p>
-					</div>
-					<div class="col-md-4 features">
-						<div class="icono">
-							<div class="glyphicon glyphicon-camera"></div>
+						<div class="col-md-3">
+							<a class="fancybox" rel="group" href="img/galeria/3b.png">
+								<img src="img/galeria/3s.png" alt="">
+							</a>
 						</div>
-						<h3>Quasi quae quis sint ducimus optio.</h3>
-						<p>Exercitationem, repellat, sint fugiat eum ipsam quod provident minus possimus explicabo eligendi delectus iusto atque illo! Dolores, modi, distinctio, voluptatum reprehenderit sint quisquam consequuntur dolorem nobis rem adipisci incidunt quae.</p>
+						<div class="col-md-3">
+							<a title="Hola mundo" class="fancybox" rel="group" href="img/galeria/4b.png">
+								<img src="img/galeria/4s.png" alt="">
+							</a>
+						</div>
 					</div>
 				</div>
 		</section>
@@ -80,6 +84,59 @@
 				</div>
 			</div>
 		</footer>
+		
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="plugins/fancybox/helpers/jquery.fancybox-buttons.js"></script>
+		<script src="plugins/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() { 
+				$(".fancybox").fancybox({ 
+					helpers : {
+						buttons : {},
+						thumbs	: {
+							width	: 50,
+							height	: 50
+						}
+					}
+				}); 
+			});
+		</script>
+		
 	</body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
